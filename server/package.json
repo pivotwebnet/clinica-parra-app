@@ -1,0 +1,16 @@
+{
+  "name": "clinica-parra-server",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Backend simulado (mock) para la app movil de Clinica Parra: pacientes, estudios y turnos.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "pdfkit": "^0.15.0"
+  }
+}
